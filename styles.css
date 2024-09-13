@@ -12,3 +12,23 @@ section{
     height: 500px;
 
 }
+
+header{
+    height: 100px;
+    margin-right: -550px;
+}
+
+
+.nav-link {
+    color: black;
+    margin: 15px;
+}
+
+.nav-link#acc{
+
+}
+
+.nav-link:hover {
+    color: black;
+}
+
