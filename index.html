@@ -19,36 +19,34 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target="#sectionAccueil">
 
-    <!--Header-->
+<!--Header-->
     
     <header>
         <ul class="nav justify-content-center ">
+
             <li class="nav-item">
-              <a class="nav-link"  id="Acc" href="#sectionAccueil">Accueil</a>
+              <a class="nav-link"  id="btnHover" href="#sectionAccueil"><span>Accueil</span></a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#sectionTest">Test</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sectionBTS">BTS SIO</a>
-            </li>
-            <li class="nav-item dropdown">                
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#sectionProjets">Projet 1</a>
-                    <a class="dropdown-item" href="#">Projet 2</a>
-                    <a class="dropdown-item" href="#">Projet 3</a>
-                </div>
+              <a class="nav-link"  id="btnHover" href="#sectionTest"><span>Test</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="contact" href="#sectionContact">Contactez moi !</a>
+              <a class="nav-link" id="btnHover" href="#sectionBTS"><span>BTS SIO</span></a>
             </li>
-          </ul>
+
+            <li class="nav-item">                
+                <a class="nav-link" id="btnHover" href="#sectionProjets"><span>Projets</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a type="button" class="nav-link" id="contact" href="#sectionContact">Contactez moi !</a>
+            </li>
+        </ul>
     </header>
 
 
 <!--Sections-->
-
 
     <section id="sectionAccueil">
         <p>PAGE Accueil</p>
@@ -56,22 +54,32 @@
     </section>
 
     <section id="sectionTest">
-        <p>PAGE Accueil</p>
+        <p>PAGE Test</p>
         
     </section>
+
     <section id="sectionBTS">
-        <p>PAGE Accueil</p>
+        <p>PAGE BTS SIO</p>
         
     </section>
+
     <section id="sectionProjets">
-        <p>PAGE Accueil</p>
-        
+        <p>PAGE Projets</p>
+        <p>Projets 1</p>
+        <p>Projets 2</p>
+        <p>Projets 3</p>
+    </section>
+
+    <section id="sectionContact">
+        <p>PAGE Contact</p>
     </section>
 
 
-    <!--Java bootstrap optionnel pour l'instant-->
+    <!--Java, bootstrap optionnel pour l'instant-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="my.js"></script>
 </body>
 </html>
