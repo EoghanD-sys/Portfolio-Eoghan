@@ -13,7 +13,7 @@ body {
     color: #333333;
     font-family: 'Nunito', sans-serif;
     position: relative;
-    position: center;
+    text-align: center;
 }
 
 section{
@@ -25,6 +25,8 @@ section{
 header{
     height: 100px;
     margin-right: -550px;
+    padding-bottom: 160px;
+    padding-top: 10px;
 }
 
 
