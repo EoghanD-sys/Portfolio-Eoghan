@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Gère les marges et paddings dans les limites des éléments */
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+body {
+    background-color: #FFFFFF; 
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+section{
+    
+    height: 700px;
+
+}
+
+header{
+    height: 100px;
+    margin-right: -550px;
+    padding-bottom: 160px;
+    padding-top: 10px;
+}
+
+
+.nav-link {
+    color: black;
+    margin: 15px;
+}
+
+
+#btnHover {
+    display: inline-block;
+    color: black;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: color 0.4s ease;
+    border-radius: 3px;
+}
+
+#btnHover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+}
+
+#btnHover:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#btnHover:hover {
+    color: white; 
+}
+
+#btnHover span {
+    position: relative;
+    z-index: 1;
+}
+
+
+#contact{
+    letter-spacing: 0px;
+    transition: 360ms ease-in-out;
+}
+
+#contact:hover{
+    letter-spacing: 2px;
+    transition: 350ms ease-in-out;
+}
+
+#contact:after,
+#contact:before {
+  backface-visibility: hidden;
+  border: 1px solid white;
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+#contact:hover:after,
+#contact:hover:before {
+  backface-visibility: hidden;
+  border-color: black;
+  transition: width 350ms ease-in-out;
+  width: 60%;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.contact{
+    border:#333333;
+    border: 10px;
+    padding-top: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+
+hr{
+    
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    background-color: black;
+}
+     #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        padding-right: 15px; /* Some padding */
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+      }
+      
+      #myBtn:hover {
+        background-color: black; /* Add a dark-grey background on hover */
+        color: white;
+      }
