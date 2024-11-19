@@ -17,3 +17,19 @@ function topFunction() {
   document.body.scrollTop = 0; // pour Safari
   document.documentElement.scrollTop = 0; // pour Chrome, Firefox, IE et Opera
 }
+
+window.addEventListener('scroll', () => {
+  const circle = document.querySelector('.background-circle');
+  const scrollY = window.scrollY;
+  
+  // Déplace légèrement le rond en fonction du défilement
+  circle.style.transform = `translate(-50%, ${scrollY * 0.2}px)`;
+});
+
+window.addEventListener('scroll', () => {
+  const circle = document.querySelector('.background-square');
+  const scrollY = window.scrollY;
+  
+  // Déplace légèrement le rond en fonction du défilement
+  circle.style.transform = `translate(-50%, ${scrollY * 0.1}px)`;
+});
