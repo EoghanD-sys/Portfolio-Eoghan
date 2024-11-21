@@ -14,9 +14,23 @@ function scrollFunction() {
 
 // click va au top
 function topFunction() {
-  document.body.scrollTop = 0; // pour Safari
-  document.documentElement.scrollTop = 0; // pour Chrome, Firefox, IE et Opera
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth" 
+});
 }
+
+
+//bg navbar
+document.addEventListener("scroll", () => {
+  const navbar = document.querySelector(".bgGris");
+  if (window.scrollY > 30) {
+      navbar.classList.add("navbar-scrolled");
+  } else {
+      navbar.classList.remove("navbar-scrolled");
+  }
+});
+
 
 window.addEventListener('scroll', () => {
   const circle = document.querySelector('.background-circle');

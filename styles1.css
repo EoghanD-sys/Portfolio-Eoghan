@@ -6,7 +6,16 @@
 html, body {
     width: 100%;
     overflow-x: hidden; /* Empêche le défilement horizontal */
+    scroll-behavior: smooth;
+    cursor: url('Images/beige_circle_cursor2.png'), auto;
 }
+
+::selection {
+    background-color: #e4c2a8;  
+    color: white;             
+}
+
+
 
 body {
     background-color: #FFFFFF; 
@@ -42,8 +51,8 @@ header{
     height: 600px;
     background: #e4c2a8; /* Gris clair */
     border-radius: 50%; /* Forme circulaire */
-    top: -3%; /* Position initiale (réglable) */
-    left: 10%;
+    top: 1%; /* Position initiale (réglable) */
+    left: 85%;
     transform: translateX(-50%);
     z-index: -1; /* Envoyer le rond à l'arrière */
     transition: transform 0.2s ease-out; /* Animation fluide */
@@ -87,6 +96,7 @@ header{
     cursor: pointer;
     transition: color 0.4s ease;
     border-radius: 3px;
+    cursor: url('Images/blanc-custom-cursor.png'), auto;
 }
 
 #btnHover:before {
@@ -96,7 +106,7 @@ header{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: #e4c2a8;
     z-index: 0;
     transform: scaleX(0);
     transform-origin: left;
@@ -126,6 +136,7 @@ header{
 #contact:hover{
     letter-spacing: 2px;
     transition: 350ms ease-in-out;
+    cursor: url('Images/beige_circle_cursor2.png'), auto;
 }
 
 #contact:after,
@@ -144,7 +155,7 @@ header{
 #contact:hover:after,
 #contact:hover:before {
   backface-visibility: hidden;
-  border-color: black;
+  border-color: #e4c2a8;
   transition: width 350ms ease-in-out;
   width: 60%;
 }
@@ -192,4 +203,12 @@ hr{
 .iconLink :hover{
     transform: scale(1.2);
     transition-duration: .2s;
+    cursor: url('Images/beige_circle_cursor2.png'), auto;
+}
+
+
+
+.navbar-scrolled{
+    background-color: #FFFFFF;
+    transition: background-color 0.2s ease;
 }
