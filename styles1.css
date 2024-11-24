@@ -7,7 +7,7 @@ html, body {
     width: 100%;
     overflow-x: hidden; /* Empêche le défilement horizontal */
     scroll-behavior: smooth;
-    cursor: url('Images/beige_circle_cursor2.png'), auto;
+    
 }
 
 ::selection {
@@ -73,7 +73,7 @@ header{
     background: #aa917e; /* Gris clair */
     border-radius: 15px; /* Coins légèrement arrondis */
     top: 30%;
-    right: 0%;
+    left: 0%;
     transform: translateX(-50%);
     z-index: -1;
     transition: transform 0.2s ease-out;
@@ -85,7 +85,6 @@ header{
     margin: 15px;
 }
 
-
 #btnHover {
     display: inline-block;
     color: black;
@@ -93,10 +92,10 @@ header{
     border: none;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
+    cursor : pointer;
     transition: color 0.4s ease;
     border-radius: 3px;
-    cursor: url('Images/blanc-custom-cursor.png'), auto;
+    
 }
 
 #btnHover:before {
@@ -136,7 +135,7 @@ header{
 #contact:hover{
     letter-spacing: 2px;
     transition: 350ms ease-in-out;
-    cursor: url('Images/beige_circle_cursor2.png'), auto;
+
 }
 
 #contact:after,
@@ -194,8 +193,9 @@ hr{
       }
       
       #myBtn:hover {
-        background-color: black; /* Add a dark-grey background on hover */
+        background-color: #e4c2a8; 
         color: white;
+        border-color: #e4c2a8;
       }
 
 
@@ -203,12 +203,62 @@ hr{
 .iconLink :hover{
     transform: scale(1.2);
     transition-duration: .2s;
-    cursor: url('Images/beige_circle_cursor2.png'), auto;
+    content: url("Images/icons8-linkedin-noir.png");
 }
 
+.iconGit :hover{
+    transform: scale(1.2);
+    transition-duration: .2s;
+    content: url("Images/icons8-github-noir.png");
+}
 
 
 .navbar-scrolled{
     background-color: #FFFFFF;
     transition: background-color 0.2s ease;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.skill-icon {
+    cursor: pointer;
+}
+
+/* Conteneur pour les barres de compétences */
+.skill-bar-container {
+    width: 100px;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: none; /* Masqué par défaut */
+}
+
+/* Barre de compétence */
+.skill-bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Couleurs personnalisées */
+.html-bar {
+    background-color: #e34c26;
+}
+
+.css-bar {
+    background-color: #1572b6;
+}
+
+.csharp-bar {
+    background-color: #239120;
 }
