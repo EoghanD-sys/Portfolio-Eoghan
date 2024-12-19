@@ -16,7 +16,6 @@ html, body {
 }
 
 
-
 body {
     background-color: #FFFFFF; 
     color: #333333;
@@ -62,8 +61,20 @@ header{
     text-align: center;
 
     padding: 40px 300px;
-    box-sizing: border-box;
-    
+}
+
+.content-moi{
+    text-align: center;
+    font-size: smaller;
+    padding-right: 210px;
+    padding-left: 100px;
+    padding-top: 30px;
+
+}
+
+#imageMoi{
+    width: 23%; 
+    margin: 50px;
 }
 
 .background-square {
@@ -218,47 +229,3 @@ hr{
     transition: background-color 0.2s ease;
 }
 
-.skill-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 15px;
-}
-
-.skill-icon {
-    cursor: pointer;
-}
-
-/* Conteneur pour les barres de compétences */
-.skill-bar-container {
-    width: 100px;
-    height: 20px;
-    background-color: #e0e0e0;
-    border-radius: 10px;
-    margin-top: 10px;
-    overflow: hidden;
-    position: relative;
-    display: none; /* Masqué par défaut */
-}
-
-/* Barre de compétence */
-.skill-bar {
-    height: 100%;
-    background-color: #4caf50;
-    width: 0;
-    border-radius: 10px;
-    transition: width 0.5s ease-in-out;
-}
-
-/* Couleurs personnalisées */
-.html-bar {
-    background-color: #e34c26;
-}
-
-.css-bar {
-    background-color: #1572b6;
-}
-
-.csharp-bar {
-    background-color: #239120;
-}
