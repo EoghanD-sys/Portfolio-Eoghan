@@ -27,7 +27,7 @@ body {
 
 section{
     
-    height: 700px;
+    height: 800px;
     font-size: larger;
 
 }
@@ -65,11 +65,15 @@ header{
 
 .content-moi{
     text-align: center;
-    font-size: smaller;
+    font-size: 17px;
     padding-right: 210px;
     padding-left: 100px;
-    padding-top: 30px;
+    padding-top: 10px;
 
+}
+
+.competence-moi{
+    text-align: center;
 }
 
 #imageMoi{
