@@ -112,19 +112,48 @@
             <div >
                 <p>Compétences professionnelles</p>
             </div>
-            <p class="gap-1">
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  Link with href
-                </a>
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                  Button with data-bs-target
+            <!--Boutons-->
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                  Toggle width collapse
                 </button>
-              </p>
-              <div class="collapse" id="collapseExample">
-                <div class="card card-body">
-                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWidth2" aria-expanded="false" aria-controls="collapseWidth2">
+                    Toggle width collapse
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWidth3" aria-expanded="false" aria-controls="collapseWidth3">
+                    Toggle width collapse
+                </button>
+            </p>
+            <!--Card-->
+            <div style="display: flex;">
+            <div style="min-height: 120px; " >
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                  <div class="card card-body" id="card-compet" style="width: 350px;">
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 75%"></div>
+                      </div>
+                    </div>
                 </div>
-              </div>
+            </div>
+            <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidth2">
+                  <div class="card card-body" id="card-compet" style="width: 350px;">
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 75%"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div style="min-height: 120px;" >
+                <div class="collapse collapse-horizontal" id="collapseWidth3">
+                  <div class="card card-body" id="card-compet" style="width: 350px;">
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 75%"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 <hr>

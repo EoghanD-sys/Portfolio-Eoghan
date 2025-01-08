@@ -76,6 +76,14 @@ header{
     text-align: center;
 }
 
+#collapseWidthExample{
+    text-align: center;
+}
+
+#card-compet{
+    margin:left;
+}
+
 #imageMoi{
     width: 23%; 
     margin: 50px;
