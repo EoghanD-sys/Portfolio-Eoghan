@@ -1,0 +1,26 @@
+body{
+    background-color:#90a7d1 ;
+}
+img{
+    width: 10cm;
+    position: absolute;
+    top: 200px;
+}
+p{
+    width:m;
+    font-size: 0.8cm;
+    text-align: center;
+    text-align: justify;
+    
+}
+
+.zoom img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom :hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
