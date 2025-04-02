@@ -65,17 +65,23 @@ header{
 
 .content-moi{
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
     padding-right: 210px;
     padding-left: 100px;
     padding-top: 10px;
-
 }
 
-.competence-moi{
-    text-align: center;
+/*compétence pro */
+
+.skill-logo {
+    max-width: 400px; /* Augmente la taille des logos */
+    margin: 20px; /* Ajoute plus d'espacement entre les logos */
+    transition: transform 0.2s ease-in-out;
 }
 
+.skill-logo:hover {
+    transform: scale(1.30); /* Effet hover légèrement plus marqué */
+}
 
 #collapseWidthExample{
     text-align: center;
@@ -87,7 +93,7 @@ header{
 }
 
 #imageMoi{
-    width: 23%; 
+    width: 15%; 
     margin: 50px;
 }
 
