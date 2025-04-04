@@ -68,7 +68,7 @@ header{
     font-size: 20px;
     padding-right: 210px;
     padding-left: 100px;
-    padding-top: 10px;
+    padding-top: 3px;
 }
 
 /*compétence pro */
@@ -83,6 +83,10 @@ header{
     transform: scale(1.30); /* Effet hover légèrement plus marqué */
 }
 
+#compet{
+    margin-top: 50px;
+}
+
 #collapseWidthExample{
     text-align: center;
 }
@@ -94,7 +98,7 @@ header{
 
 #imageMoi{
     width: 15%; 
-    margin: 50px;
+    margin-left: 40px;
 }
 
 .background-square {
