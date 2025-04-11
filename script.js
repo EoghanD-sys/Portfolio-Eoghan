@@ -22,6 +22,16 @@ function topFunction() {
 });
 }
 
+//cercle
+const circle = document.querySelector('.background-circle');
+
+document.addEventListener('mousemove', (e) => {
+  const x = (e.clientX / window.innerWidth - 0.5) * 80; // ajustable
+  const y = (e.clientY / window.innerHeight - 0.5) * 80;
+  circle.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
+});
+
+
 
 //bg navbar
 document.addEventListener("scroll", () => {

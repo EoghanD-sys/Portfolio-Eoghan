@@ -22,7 +22,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Users\Portfolio\EoghanDANIEL></title>
+    <title>Portfolio | Eoghan DANIEL></title>
     <link rel="icon" type="image/gif" href="images/chat2.ico">
     <link rel="stylesheet" href="styles1.css">
 
@@ -30,7 +30,7 @@
 </head>
 
 
-<body class="text-bg-dark" data-bs-spy="scroll" data-bs-target="#sectionAccueil">
+<body class="text-bg-dark" data-spy="scroll" data-target="#sectionAccueil">
 <!--Header-->   
     <header>
         
@@ -75,7 +75,7 @@
 
     <div class="ligne"></div>
 
-    <section id="sectionAccueil">
+    <section id="sectionAccueil" class="position-relative">
         <div class="background-circle"></div>
         <h1 style="font-family: Roboto mono; font-size: 100px; font-weight: lighter;" class="animate__animated animate__fadeInUp">Bienvenue</h1>
         <p style="font-size: larger;" class="animate__animated animate__fadeInUpBig">Sur le portfolio d'Eoghan DANIEL</p>
@@ -94,23 +94,28 @@
     <section>
        
         <h2>Qui suis-je</h2>
-
-            <div style="display: flex;">
-                <img id="imageMoi" src="Images/eoghan.jpg" class="rounded img-fluid shadow-lg"/>
-                <div class="content-moi">
-                    <br>
-                    <br>
-                    <p >Ayant obtenu le diplôme du Baccalauréat Général en Juillet 2023,<br> je suis désormais en 2ème année de mon cursus en BTS Services Informatiques aux Organisations option SLAM (Solutions Logicielles & Applications Métiers) au sein du lycée Corneille de La Celle Saint-Cloud.<br> 
-                        Je suis apprentis chez SCOR, l'un des plus grands réassureur du monde. J'apprends énormément tous les jours grâce à mon alternance. Plus précisément sur le monde du travail et de l'informatique. <br>
-                        <br>
-                        Passionné par le vaste univers de l'Informatique, je cherche à développer mes connaissances et acquérir de l'expérience. 
-                    </p>
-                </div>
+        <!-- début div qui suis je -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center">
+                        <img id="imageMoi" src="Images/eoghan.jpg" class="rounded img-fluid shadow-lg"/>
+                    </div>
+                    <div class="col-md-8 justify-content-center">
+                        <p >Ayant obtenu le diplôme du Baccalauréat Général en Juillet 2023,<br> je suis désormais en 2ème année de mon cursus en BTS Services Informatiques aux Organisations option SLAM (Solutions Logicielles & Applications Métiers) au sein du lycée Corneille de La Celle Saint-Cloud.<br> 
+                            Je suis apprentis chez SCOR, l'un des plus grands réassureur du monde. J'apprends énormément tous les jours grâce à mon alternance. Plus précisément sur le monde du travail et de l'informatique. <br>
+                            <br>
+                            Passionné par le vaste univers de l'Informatique, je cherche à développer mes connaissances et acquérir de l'expérience. 
+                        </p>
+                    </div>
             </div>
             <div >
+                <br><br>
+                <section id="competences">
+                    <div class="container-fluid">
+
                 <h2>Mes compétences</h2>
                 <br>
-                <p>Grâce à de nombreux projets</p>
+                <p>Au fil de mes projets, j’ai pu développer des compétences dans plusieurs domaines, comme ceux présentés ci-dessous.</p>
             </div>
             <!--Boutons-->
             <div id="compet" class="container text-center">
@@ -150,12 +155,18 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
     </section>
+        
+          <!-- fin div qui suis je -->
+<br>
+<br><br><br><br>
+<hr> 
+    <section class="position-relative">
 
-<hr>
-    <section>
         <h2 id="sectionVeille">Veille technologique</h2>
-
     </section>
 
 <hr>

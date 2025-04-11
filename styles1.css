@@ -11,7 +11,7 @@ html, body {
 }
 
 ::selection {
-    background-color: #e4c2a8;  
+    background-color: #C9C9F1;  
     color: white;             
 }
 
@@ -34,7 +34,7 @@ section{
 
 header{
     height: 100px;
-    margin-right: -550px;
+    margin: auto;
     padding-bottom: 160px;
     padding-top: 10px;
 }
@@ -46,16 +46,19 @@ header{
 
 .background-circle {
     position: absolute;
-    width: 600px; 
+    top: 50%;
+    left: 50%;
+    width: 600px;
     height: 600px;
-    background: #e4c2a8; 
-    border-radius: 50%; 
-    top: 1%; 
-    left: 85%;
-    transform: translateX(-50%);
-    z-index: -1; 
-    transition: transform 0.2s ease-out; 
+    background-color: #C9C9F1;
+    border-radius: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    pointer-events: none;
   }
+  
+
 
 .content{
     text-align: center;
@@ -97,8 +100,9 @@ header{
 }
 
 #imageMoi{
-    width: 15%; 
-    margin-left: 40px;
+    width: 80%;
+    max-width: 100%;
+    margin-right: 40%;
 }
 
 .background-square {
@@ -140,7 +144,7 @@ header{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #e4c2a8;
+    background-color: #C9C9F1;
     z-index: 0;
     transform: scaleX(0);
     transform-origin: left;
@@ -189,7 +193,7 @@ header{
 #contact:hover:after,
 #contact:hover:before {
   backface-visibility: hidden;
-  border-color: #e4c2a8;
+  border-color: #C9C9F1;
   transition: width 350ms ease-in-out;
   width: 60%;
 }
@@ -228,9 +232,9 @@ hr{
       }
       
       #myBtn:hover {
-        background-color: #e4c2a8; 
+        background-color: #C9C9F1; 
         color: white;
-        border-color: #e4c2a8;
+        border-color: #C9C9F1;
       }
 
 
