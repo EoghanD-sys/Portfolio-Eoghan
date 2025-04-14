@@ -257,3 +257,13 @@ hr{
     transition: background-color 0.2s ease;
 }
 
+#cardprojet{
+    display: flex;
+    margin-top: 10%;
+}
+
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 2px grey;
+}
