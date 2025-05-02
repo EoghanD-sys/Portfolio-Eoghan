@@ -7,7 +7,7 @@ Ce site a été réalisé dans le cadre de mon BTS SIO option SLAM. Il me permet
 Vous y trouverez :
 
 - Une présentation rapide de mon parcours
-- Mes projets scolaires et personnels
-- Mes objectifs futurs dans le domaine du développement et de l'informatique de manière générale
+- Mes projets scolaires et professionnels 
+- Mes objectifs futurs dans le domaine de l'informatique 
 
-🚀 Merci pour votre visite !
+📲 Merci pour votre visite !
