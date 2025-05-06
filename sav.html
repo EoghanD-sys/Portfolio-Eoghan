@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Projet de suivi de SAV des laptops</title>
+  <title>Projet de gestion du service après-vente des laptops de SCOR</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -78,7 +78,7 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Reprise du suivi du service après vente des PC Lenovo</h1>
+              <h1>Reprise de la gestion du service après-vente des PC Lenovo</h1>
               <a href="index.html" class="cta-btn">Retourner à l'accueil<br></a>
             </div>
           </div>
@@ -113,6 +113,11 @@
           <div class="swiper-wrapper align-items-center">
 
             <!-- Modifier les photos avec les photos de pixar -->
+
+            <div class="swiper-slide">
+              <img src="Images/projet/Doc_sav/list.png" alt="">
+            </div>
+
             <div class="swiper-slide">
               <img src="Images/projet/Doc_sav/site_lenovo.png" alt="">
             </div>
@@ -154,10 +159,6 @@
             </div>
 
             <div class="swiper-slide">
-              <img src="Images/projet/Doc_sav/cmdb_liste.png" alt="">
-            </div>
-
-            <div class="swiper-slide">
               <img src="Images/projet/Doc_sav/CMDB.png" alt="">
             </div>
           </div>
@@ -172,21 +173,14 @@
             <div class="portfolio-description">
               <h2>Grand projet de vente de matériels</h2>
               <p style="font-size: large;">
-                <p>
-                  Après le projet <b>“Kléber Horizon”</b> qui vise à mettre en place un <b>flex office</b> dans tout le bâtiment de SCOR, des <b>écrans incurvés de 34 pouces</b> avec <b>docking station intégrée</b> ont été installés pour chaque poste. Résultat : tous les anciens <b>écrans de 27 pouces</b> et les <b>stations d’accueil</b> se sont retrouvés inutilisés.<br><br>
-                  
-                  Avec mon manager, on a donc eu l’idée d’<b>organiser une vente interne</b> pour les collaborateurs, avec un objectif simple : permettre aux collaborateurs d'avoir du matériel plutôt que de tout jeter et <b>reverser 100% des fonds récoltés à la Croix-Rouge</b>. La vente a été un énorme succès avec <b>plus de 800 commandes effectuées</b>, et une dernière vague est encore à venir.<br><br>
-                  
-                  En parallèle, je gérais <b>tout le stock</b> des écrans et des stations situé au <b>niveau -5</b> après le déménagement. Les déménageurs y déposaient le matériel, et c’était à moi de <b>trier, organiser et approvisionner</b> le kiosque dès que les stocks étaient bas. Une vraie logistique à mettre en place au quotidien !<br><br>
+                À mon arrivée, le support IT semblait un peu dépassé par la gestion du SAV Lenovo et par le nombre de PC en "maintenance" stockés (environ une centaine). Faire des tickets, suivre les réponses de Lenovo, et appliquer leurs consignes peut être très long et difficile à suivre au quotidien. Résultat : le nombre de machines ne faisait qu'augmenter.<br><br>
+                Mon manager m’a alors confié la mission de reprendre en main toute cette gestion. J’ai mis en place une <strong>liste de suivi complète</strong> qui contient : le hostname du PC, les incidents techniques rencontrés, la date du diagnostic, le statut du ticket (en cours ou terminé), le numéro de ticket, une section de commentaires, ainsi que plusieurs cases à cocher (Garantie/Hors Garantie, Master Fait/Non Fait, CMDB OK). Grâce à cette organisation, je peux assurer un suivi clair et précis de chaque appareil.<br><br>
+                Dès que je récupère un PC défectueux, je l’enregistre dans la liste et, si nécessaire, j’ouvre un ticket chez Lenovo, même lorsque l’appareil n’est plus sous garantie. Je renseigne toutes les informations demandées par le support technique et j’envoie le ticket. Selon leur réponse, soit j'effectue moi-même les réparations (par exemple, remplacer une batterie), soit je prépare l’expédition du PC vers leur laboratoire technique en suivant leurs procédures.<br><br>
 
-                  Le processus est bien rodé : des <b>mails d’annonce</b> sont envoyés aux collaborateurs avec toutes les informations (prix, procédure de récupération, etc.). Un <b>formulaire en ligne</b> leur permet de sélectionner ce qu’ils souhaitent acheter (écran, station ou les deux).<br><br>
-                  
-                  De notre côté, avec mon manager, le formulaire alimente automatiquement une <b>Microsoft List</b> avec les commandes. Ensuite, on vérifie chaque demande à la main pour la <b>valider</b> ou parfois l’annuler si demandé. Une fois validée, une série de <b>mails automatisés via Power Automate</b> est envoyée à l’utilisateur pour l’informer de l’état de sa commande et les procédures à suivre pour finaliser la vente.<br><br>
-                  
-                  Les collaborateurs peuvent ensuite venir <b>récupérer leur matériel au kiosque</b>, où les techniciens vérifient leur commande et nous informent une fois la remise effectuée. De mon côté, je mets alors à jour la liste pour garder un <b>suivi précis et à jour</b>.<br><br>
-                  
-                  Ce projet m’a permis de gérer <b>toute une logistique de vente</b> à grande échelle, avec un vrai impact solidaire, tout en m'appuyant sur les outils Microsoft 365 pour <b>automatiser, suivre et organiser efficacement</b> le processus.
-                  </p>                             
+                Une fois le PC réparé ou revenu, je réalise tous les tests nécessaires pour m'assurer que l'incident est résolu, puis je fais un master complet de la machine. J’ai également créé une <strong>seconde liste spécifique</strong> dédiée aux appareils retournés par Lenovo, dans laquelle j’indique le hostname, le statut du test et du master.<br><br>
+
+                Enfin, je mets à jour à la fois ma liste principale et la CMDB (Configuration Management Database) avant de remettre le PC en stock, prêt à être réattribué.
+                          
               </p>
             </div>
           </div>
